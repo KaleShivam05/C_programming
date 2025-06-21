@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////
 //
-//  File name :     program3.c
+//  File name :     program2X.c
 //  Descreption :   Used to calculate percentage
 //  Author :        Shivam Rajendra Kale
 //  Date :          19/06/2025

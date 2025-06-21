@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////
 //
-//  File name :     program2.c
+//  File name :     program4.c
 //  Descreption :   Used to calculate percentage
 //  Input :         Integer
 //  Output :        Integer, String

@@ -1,0 +1,54 @@
+/////////////////////////////////////////////////////////////////
+//
+//  File name :     program28.c
+//  Descreption :   Display Summation of  Digits
+//  Input :          4
+//  Output :         1   2   3   4
+//  Author :        Shivam Rajendra Kale
+//  Date :          27/06/2025
+//
+//////////////////////////////////////////////////////////////////
+
+/*
+    Start
+        Accept the frequency
+        Iterate from 1 to that frequency
+            Display 1 to increment order on screen
+        continue
+    Stop
+*/
+
+
+#include<stdio.h>
+
+void Display(int iNo)
+{
+    int iCnt = 0;
+    
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    } 
+    
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("%d\t",iCnt);
+    }
+    printf("\n");
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter frequency : \n");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+
+    return 0;
+}
+
+// Time Complexity O(N)
+// N is a natural number
+// Where N >= 0 and N <= Inifinity

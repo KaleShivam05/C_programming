@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////////////////////
+//
+//  File name :     program137.c
+//  Descreption :   open new file
+//  Input :         String (file name)
+//  Author :        Shivam Rajendra Kale
+//  Date :          08/07/2025
+// 
+//////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<fcntl.h>
+#include<unistd.h>
+
+int main()
+{
+    char Fname[20] = {'\0'};
+    int fd = 0;
+
+    printf("Enter the file name that you want to open : \n");
+    scanf("%s",Fname);
+
+    fd = open(Fname, O_RDWR);
+    if(fd == -1)
+    {
+        printf("Unable to open file\n");
+    }
+    else
+    {
+        printf("File is succesfully opened with fd : %d\n",fd);
+        close(fd);
+    }
+
+
+    return 0;
+}

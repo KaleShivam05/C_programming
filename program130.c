@@ -9,7 +9,7 @@
 // 
 //////////////////////////////////////////////////////////////////
 
-/*
+/*  
     Start 
         Accept Input from user
             Check wether string is pallindrome or not

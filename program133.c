@@ -20,7 +20,7 @@ int main()
     printf("Enter the name of file : \n");
     scanf("%s",Fname);
 
-    fd = creat(Fname,0777);
+    fd = creat(Fname,0777); 
 
     return 0;
 }
